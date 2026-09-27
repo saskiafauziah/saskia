@@ -1032,161 +1032,60 @@
         <div class="media-grid">
 
             <!-- PPT -->
-            <div class="media-card">
+          <!-- PPT -->
+<div class="ppt-box">
+    <h3>📊 materi presentasi</h3>
+    <p style="color:#a9bbcf; margin-top:8px; margin-bottom:18px;">
+        Preview materi presentasi langsung dari Google Slides.
+    </p>
+    <div class="ppt-preview">
+        <iframe 
+            src="https://docs.google.com/presentation/d/14gHvjf8H-J6SHMpmiVjEEzTK_W5ck-IS/embed?start=false&loop=false&delayms=3000" 
+            frameborder="0" 
+            width="100%" 
+            height="520" 
+            allowfullscreen="true" 
+            mozallowfullscreen="true" 
+            webkitallowfullscreen="true"
+            style="border-radius:12px; background:#fff;">
+        </iframe>
+    </div>
+</div>
 
-                <h3>📑 Materi PowerPoint</h3>
-
-                <label class="upload-box">
-
-                    <input
-                        type="file"
-                        id="pptInput"
-                        accept=".ppt,.pptx"
-                        onchange="loadPPT(event)"
-                    >
-
-                    <div class="upload-icon">📤</div>
-
-                    <strong>
-                        Klik untuk memilih file PPT
-                    </strong>
-
-                    <p>
-                        Format .ppt atau .pptx
-                    </p>
-
-                    <div id="pptName" class="file-name">
-                        Belum ada file
-                    </div>
-
-                </label>
-
-
-                <a
-                    id="downloadPPT"
-                    class="btn btn-primary"
-                    style="margin-top:15px; display:none;"
-                    download
-                >
-                    ⬇ Download PPT
-                </a>
-
-
-                <div class="ppt-note">
-                    <b>Preview PPT:</b>
-                    Untuk preview PowerPoint secara langsung melalui
-                    browser, file PPT perlu berada pada hosting/URL
-                    yang dapat diakses secara online.
-                </div>
-
-                <input
-                    type="url"
-                    id="pptURL"
-                    placeholder="Masukkan URL PPT untuk preview..."
-                    style="
-                    width:100%;
-                    padding:13px;
-                    margin-top:15px;
-                    border:1px solid #cbd5e1;
-                    border-radius:10px;
-                    "
-                >
-
-                <button
-                    class="btn btn-primary"
-                    onclick="previewPPT()"
-                    style="margin-top:10px;"
-                >
-                    👁 Preview PPT
-                </button>
-
-
-                <iframe
-                    id="pptPreview"
-                    class="ppt-preview"
-                    style="display:none;"
-                ></iframe>
-
-            </div>
-
-
+            <!-- VIDEO -->
             <!-- VIDEO 1 -->
-            <div class="media-card">
-
-                <h3>🎬 Video Praktikum 1</h3>
-
-                <label class="upload-box">
-
-                    <input
-                        type="file"
-                        accept="video/*"
-                        onchange="loadVideo(event,'video1','name1')"
-                    >
-
-                    <div class="upload-icon">🎥</div>
-
-                    <strong>
-                        Upload Video 1
-                    </strong>
-
-                    <p>
-                        MP4, WebM, MOV
-                    </p>
-
-                    <div id="name1" class="file-name">
-                        Belum ada video
-                    </div>
-
-                </label>
-
-                <video
-                    id="video1"
-                    controls
-                ></video>
-
-            </div>
+           <div class="upload-box">
+        <h3>🎬 video dokumentasi 01</h3>
+        <p style="color:#a9bbcf; margin-top:8px; margin-bottom:15px;">
+            Proses merangkai kabel LAN.
+        </p>
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px;">
+            <iframe 
+                src="https://drive.google.com/file/d/1UcQzokrWno03xCMvi01YySeUN_13QryE/preview" 
+                style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;"
+                allow="autoplay"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
 
 
             <!-- VIDEO 2 -->
-            <div class="media-card">
-
-                <h3>🎬 Video Praktikum 2</h3>
-
-                <label class="upload-box">
-
-                    <input
-                        type="file"
-                        accept="video/*"
-                        onchange="loadVideo(event,'video2','name2')"
-                    >
-
-                    <div class="upload-icon">🎥</div>
-
-                    <strong>
-                        Upload Video 2
-                    </strong>
-
-                    <p>
-                        MP4, WebM, MOV
-                    </p>
-
-                    <div id="name2" class="file-name">
-                        Belum ada video
-                    </div>
-
-                </label>
-
-                <video
-                    id="video2"
-                    controls
-                ></video>
-
-            </div>
-
+              <div class="upload-box">
+        <h3>🎬 video dokumentasi 02</h3>
+        <p style="color:#a9bbcf; margin-top:8px; margin-bottom:15px;">
+            Konfigurasi jaringan dan file sharing.
+        </p>
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px;">
+            <iframe 
+                src="https://drive.google.com/file/d/1MIWtfWp8s9UO4CEV6Ypvqb-9zWmkdWD1/preview" 
+                style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;"
+                allow="autoplay"
+                allowfullscreen>
+            </iframe>
         </div>
-
     </div>
-
+</div>
 </section>
 
 
